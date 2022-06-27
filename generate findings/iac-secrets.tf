@@ -2,7 +2,7 @@ resource "kubernetes_ingress" "example_ingress" {
   metadata {
     name = "example-ingress"
   }
-  spec {
+#  spec {
     backend {
       service_name = "MyApp1"
       service_port = 8080
